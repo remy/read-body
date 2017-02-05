@@ -61,7 +61,7 @@ ol {
 }
 
 li {
-  list-style: none;
+  /* list-style: none; */
   margin: 1rem 0;
 }
 
