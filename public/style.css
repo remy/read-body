@@ -1,0 +1,96 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Merriweather', Georgia, serif;
+}
+
+body {
+  margin-bottom: 80vh;
+}
+
+article {
+  max-width: 550px;
+  max-width: 55ch;
+  font-size: 1rem;
+  margin: 0 auto;
+  padding: 20px;
+  font-weight: 300;
+}
+
+article p {
+  text-align: justify;
+}
+
+strong {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+
+article > h2:first-child {
+  font-size: .8rem;
+  text-transform: uppercase;
+  color: gray;
+  font-weight: 400;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-family: sans-serif;
+}
+
+h2 + h1 {
+  margin-top: 0;
+}
+
+p {
+  line-height: 2.2rem;
+}
+
+.date {
+  position: absolute;
+  right: 0;
+}
+
+ol {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 1rem 0;
+}
+
+ol a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px solid white;
+  position: relative;
+  width: 100%;
+}
+
+ol a:hover {
+  border-bottom: 1px solid grey;
+}
+
+article img {
+  max-width: 100%;
+}
+
+code {
+  font-family: menlo, monaco, consolas, courier, 'courier new', 'lucida console', monospace;
+  font-size: 100%;
+/*   background: #ffffff; */
+/*   padding: 1px; */
+}
+
+pre {
+  background: #fafafa;
+  overflow: scroll;
+  padding: 1rem;
+}
