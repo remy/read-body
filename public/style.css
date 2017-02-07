@@ -15,6 +15,7 @@ article {
   margin: 0 auto;
   padding: 20px;
   font-weight: 300;
+  line-height: 1.8rem;
 }
 
 article p {
@@ -47,7 +48,7 @@ h2 + h1 {
   margin-top: 0;
 }
 
-p {
+p, li {
   line-height: 2.2rem;
 }
 
@@ -65,17 +66,12 @@ li {
   margin: 1rem 0;
 }
 
-ol a {
-  display: block;
+a {
   text-decoration: none;
-  color: black;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid blue;
   position: relative;
   width: 100%;
-}
-
-ol a:hover {
-  border-bottom: 1px solid grey;
+  color: blue;
 }
 
 article img {
