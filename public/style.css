@@ -90,3 +90,23 @@ pre {
   overflow: scroll;
   padding: 1rem;
 }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+th, td {
+    text-align: left;
+    vertical-align: top;
+    border-bottom: 1px solid #dee2e6;
+}
+
+th {
+    border-bottom-width: 2px;
+}
+
+tbody tr:last-child th, tbody tr:last-child td {
+    border-bottom-width: 0;
+}
