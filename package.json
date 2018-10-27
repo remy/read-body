@@ -32,6 +32,7 @@
     "request": "^2.79.0",
     "std-loggly": "^1.0.0",
     "striptags": "^3.0.0",
-    "to-markdown": "^3.0.3"
+    "turndown": "^5.0.1",
+    "turndown-plugin-gfm": "^1.0.2"
   }
 }
